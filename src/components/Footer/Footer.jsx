@@ -14,6 +14,10 @@ function Footer() {
             <span>P.O.Box 4684 Dubai UAE E-mail info@adamallys.com</span>
           </p>
         </div>
+        <p className={styles.copyright}>
+          © Copyright {new Date().getFullYear()} Adamallys LLC. All Rights
+          Reserved.
+        </p>
       </div>
     </footer>
   );

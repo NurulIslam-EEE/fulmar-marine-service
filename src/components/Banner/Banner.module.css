@@ -1,0 +1,22 @@
+/*.banner {
+  background: url("/images/body-bg.png");
+
+  background-size: contain;
+  background-position: center;
+}  */
+
+.banner {
+  position: relative;
+}
+
+.banner .bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 120%;
+}
+.banner .bannerImg img {
+  width: 100%;
+  height: auto;
+}

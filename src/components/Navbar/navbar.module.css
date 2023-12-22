@@ -1,0 +1,13 @@
+.nav_container {
+  padding: 10px 0 30px 0;
+}
+.nav_container p {
+  color: white;
+  font-weight: 500;
+  cursor: pointer;
+}
+
+.nav_container {
+  display: flex;
+  justify-content: space-between;
+}

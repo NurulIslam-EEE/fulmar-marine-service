@@ -1,0 +1,51 @@
+.arrow_container::before {
+  /* content: "\8592"; */
+}
+.arrow_container {
+  border-radius: 50%;
+  background-color: #014e96;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 29px;
+  /* font-weight: 700; */
+  color: #fff;
+  /* display: block; */
+  font-family: revicons;
+  /* text-align: center; */
+  z-index: 12;
+  right: 20px;
+  top: calc(50% - 40px);
+  position: absolute;
+}
+
+.arrow_container_left {
+  border-radius: 50%;
+  background-color: #014e96;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 29px;
+  /* font-weight: 700; */
+  color: #fff;
+  /* display: block; */
+  font-family: revicons;
+  /* text-align: center; */
+  z-index: 12;
+  left: 20px;
+  top: calc(50% - 40px);
+  position: absolute;
+}
+
+.slide_card {
+  width: 100%;
+}
+.slide_card img {
+  width: 100%;
+}

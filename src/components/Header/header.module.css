@@ -3,3 +3,19 @@
   width: 100%;
   background: #014e96;
 }
+
+.header .logo img {
+  width: 170px;
+}
+
+.header .content {
+  display: flex;
+  align-items: flex-end;
+  justify-content: space-between;
+  height: 100%;
+  padding-bottom: 15px;
+}
+.contactinfo p {
+  color: white;
+  font-weight: 800;
+}
