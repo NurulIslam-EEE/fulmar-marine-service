@@ -17,6 +17,11 @@ function HomeContent() {
         satisfaction is to fulfill our customers requirements.
       </p>
       <h4>Click on the logos to download product brochures.</h4>
+      <div>
+        <img src="/images/euramco-safety-logo-small.jpg" alt="" />
+        <img src="/images/anest-iwata-logo-small.jpg" alt="" />
+        <img src="/images/teufelberger-logo-small.jpg" alt="" />
+      </div>
     </div>
   );
 }

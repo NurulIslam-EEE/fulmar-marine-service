@@ -11,3 +11,11 @@
   display: flex;
   justify-content: space-between;
 }
+.nav_container .nav_item {
+  border-bottom: 2px solid transparent;
+  padding: 5px;
+}
+.nav_container .nav_item:hover {
+  border-bottom: 2px solid white;
+  transition: 0.4s;
+}

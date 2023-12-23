@@ -14,10 +14,18 @@ function Footer() {
             <span>P.O.Box 4684 Dubai UAE E-mail info@adamallys.com</span>
           </p>
         </div>
-        <p className={styles.copyright}>
-          © Copyright {new Date().getFullYear()} Adamallys LLC. All Rights
-          Reserved.
-        </p>
+        <div className={styles.contact}>
+          <strong>Fulmar Marine Service</strong> <br />
+          E-mail: info@fmscgp.com <br />
+          Tel: +880-2333313030
+          <br />
+          House 7, Lane 2, Road 2, Block L. Port Connecting Road, Halishahar,
+          Chittagong.
+        </div>
+        <div className={styles.copyright}>
+          © Copyright {new Date().getFullYear()} Fulmar Marine Service. All
+          Rights Reserved.
+        </div>
       </div>
     </footer>
   );
