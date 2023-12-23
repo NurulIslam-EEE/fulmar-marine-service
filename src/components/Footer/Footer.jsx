@@ -1,7 +1,9 @@
 import React from "react";
+import { MdEmail } from "react-icons/md";
+import { FaLocationDot } from "react-icons/fa6";
 
 import styles from "./footer.module.css";
-
+import { FaPhoneAlt } from "react-icons/fa";
 function Footer() {
   return (
     <footer className={styles.footerwrapper}>
@@ -14,11 +16,12 @@ function Footer() {
             <span>P.O.Box 4684 Dubai UAE E-mail info@adamallys.com</span>
           </p> */}
           <strong>Fulmar Marine Service</strong> <br />
-          E-mail: info@fmscgp.com <br />
-          Tel: +880-2333313030
+          <MdEmail className={styles.icon} /> info@fmscgp.com <br />
+          <FaPhoneAlt className={styles.icon} />
+          +880-2333313030
           <br />
-          House 7, Lane 2, Road 2, Block L. Port Connecting Road, Halishahar,
-          Chittagong.
+          <FaLocationDot className={styles.icon} /> House 7, Lane 2, Road 2,
+          Block L. Port Connecting Road, Halishahar, Chittagong.
         </div>
         <div className={styles.contact}></div>
         <div className={styles.copyright}>
