@@ -1,7 +1,7 @@
 .header {
   height: 112px;
   width: 100%;
-  background: #014e96;
+  /* background: #014e96; */
 }
 
 .header .logo img {
@@ -16,6 +16,6 @@
   padding-bottom: 15px;
 }
 .contactinfo p {
-  color: white;
+  color: black;
   font-weight: 800;
 }

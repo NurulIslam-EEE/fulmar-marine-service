@@ -7,14 +7,12 @@ function Footer() {
     <footer className={styles.footerwrapper}>
       <div className={styles.footer}>
         <div className={styles.address}>
-          <p>
+          {/* <p>
             Affiliated Companies : Adamallys Marine | Adamallys Marine and Ship
             Chandling
             <br />
             <span>P.O.Box 4684 Dubai UAE E-mail info@adamallys.com</span>
-          </p>
-        </div>
-        <div className={styles.contact}>
+          </p> */}
           <strong>Fulmar Marine Service</strong> <br />
           E-mail: info@fmscgp.com <br />
           Tel: +880-2333313030
@@ -22,6 +20,7 @@ function Footer() {
           House 7, Lane 2, Road 2, Block L. Port Connecting Road, Halishahar,
           Chittagong.
         </div>
+        <div className={styles.contact}></div>
         <div className={styles.copyright}>
           © Copyright {new Date().getFullYear()} Fulmar Marine Service. All
           Rights Reserved.

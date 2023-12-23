@@ -6,10 +6,7 @@ function Header() {
     <div className={styles.header}>
       <div className={styles.content + ` container`}>
         <div className={styles.logo}>
-          <img
-            src="https://fmscgp.com/assets/img/logos/final_logo.png"
-            alt=""
-          />
+          <img src="/images/FINAL LOGO 2.png" alt="" />
         </div>
         <div className={styles.contactinfo}>
           <p>018189387673</p>

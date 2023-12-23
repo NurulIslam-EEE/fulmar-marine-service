@@ -9,11 +9,12 @@
 
 .nav_container {
   display: flex;
-  justify-content: space-between;
+  justify-content: flex-start;
 }
 .nav_container .nav_item {
   border-bottom: 2px solid transparent;
   padding: 5px;
+  margin-right: 40px;
 }
 .nav_container .nav_item:hover {
   border-bottom: 2px solid white;
