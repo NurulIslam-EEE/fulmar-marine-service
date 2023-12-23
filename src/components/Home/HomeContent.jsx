@@ -11,10 +11,11 @@ function HomeContent() {
           require through the utilization of an audacious import strategy, and
           aligning this with our customer focused service ethics. Fulmar marine
           services are shaping the future of the ship-supply industry in
-          Bangladesh. Utilizing our extensive inventory in excess of 45,000
-          marine store items, and combining this with our qualified efficient
-          workers and the latest technology, FMS thus is able to offer, what we
-          believe to be market-leading performance service to our customers. Our
+          Bangladesh. <br /> <br />
+          Utilizing our extensive inventory in excess of 45,000 marine store
+          items, and combining this with our qualified efficient workers and the
+          latest technology, FMS thus is able to offer, what we believe to be
+          market-leading performance service to our customers. <br /> <br /> Our
           ultimate satisfaction is to fulfill our customers requirements.
         </p>
         <img src="/images/quote.jpg" alt="" />
