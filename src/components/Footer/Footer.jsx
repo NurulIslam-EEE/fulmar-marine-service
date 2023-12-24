@@ -9,7 +9,7 @@ import { FaFacebookF } from "react-icons/fa";
 function Footer() {
   return (
     <footer className={styles.footerwrapper}>
-      <div className={styles.footer}>
+      <div className={styles.footer + " container"}>
         <div className={styles.address}>
           {/* <p>
             Affiliated Companies : Adamallys Marine | Adamallys Marine and Ship

@@ -55,15 +55,16 @@ function CarouselComp() {
     <div>
       <Carousel
         responsive={responsive}
-        autoPlaySpeed={1000}
+        autoPlay={true}
+        autoPlaySpeed={3000}
         infinite={true}
         customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}
       >
-        {[1, 2, 3, 4].map((x) => {
+        {["/images/b1.jpg", "/images/b2.jpg", "/images/b3.jpg"].map((x) => {
           return (
             <div className={styles.slide_card}>
-              <img src="/images/banners-slide-02.jpg" alt="" />
+              <img src={x} alt="" />
             </div>
           );
         })}

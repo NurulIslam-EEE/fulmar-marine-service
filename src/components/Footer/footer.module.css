@@ -9,10 +9,9 @@
 /* top left repeat */
 
 .footer {
-  width: 940px;
   height: fit-content;
   margin: auto;
-  padding: 20px 0 0 20px;
+  padding: 20px 0;
 }
 .footer .address {
   /* height: 30px; */

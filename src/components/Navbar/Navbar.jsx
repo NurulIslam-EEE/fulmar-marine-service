@@ -3,22 +3,30 @@ import styles from "./navbar.module.css";
 
 function Navbar() {
   return (
-    <div className={styles.nav_container + " container"}>
+    <div className={styles.nav_container}>
       <div className={styles.nav_item}>
         <p>HOME</p>
       </div>
       <div className={styles.nav_item}>
         {" "}
-        <p>ABOUT</p>
+        <p>ABOUT US</p>
       </div>
       <div className={styles.nav_item}>
         {" "}
         <p>SERVICES</p>
       </div>
+      <div className={styles.nav_item}>
+        {" "}
+        <p>SERVICE PORT</p>
+      </div>
+      <div className={styles.nav_item}>
+        {" "}
+        <p>CERTIFICATION</p>
+      </div>
 
       <div className={styles.nav_item}>
         {" "}
-        <p>CONTACT </p>
+        <p>CONTACT US</p>
       </div>
     </div>
   );

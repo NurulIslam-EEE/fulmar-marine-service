@@ -7,7 +7,7 @@ function Banner({ config }) {
   return (
     <div className={styles.banner}>
       <div className="container">
-        <Navbar />
+        {/* <Navbar /> */}
 
         {config?.show && (
           <>
@@ -16,7 +16,7 @@ function Banner({ config }) {
             </div>
           </>
         )}
-        <img className={styles.bg} src="/images/body-bg.png" alt="" />
+        {/* <img className={styles.bg} src="/images/body-bg.png" alt="" /> */}
 
         <CarouselComp />
       </div>

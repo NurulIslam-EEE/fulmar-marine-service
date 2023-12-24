@@ -1,22 +1,25 @@
-.nav_container {
+/* .nav_container {
   padding: 10px 0 30px 0;
-}
+} */
+
 .nav_container p {
-  color: white;
+  color: black;
   font-weight: 500;
   cursor: pointer;
 }
 
 .nav_container {
   display: flex;
-  justify-content: flex-start;
+  justify-content: center;
+  align-items: center;
 }
 .nav_container .nav_item {
   border-bottom: 2px solid transparent;
   padding: 5px;
-  margin-right: 40px;
+  margin-left: 40px;
+  transition: 0.8s;
 }
 .nav_container .nav_item:hover {
-  border-bottom: 2px solid white;
-  transition: 0.4s;
+  border-bottom: 2px solid black;
+  transition: 0.8s;
 }
