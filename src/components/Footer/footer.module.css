@@ -1,7 +1,8 @@
 .footerwrapper {
   width: 100%;
-  background: black;
-  background: url(http://adamallys.com/images/footer-bg.jpg);
+  background: #0066a6;
+  /* background: #304146; */
+  /* background: url(http://adamallys.com/images/footer-bg.jpg); */
   min-height: 200px;
   /* height: fit-content; */
 }
@@ -16,6 +17,7 @@
 .footer .address {
   /* height: 30px; */
   padding: 0 0 15px 0;
+  color: white;
   width: 100%;
   background: url(http://adamallys.com/images/footer-border-bottom.jpg) bottom
     left repeat-x;
@@ -24,6 +26,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #676767;
+  color: white;
   line-height: 16px;
   margin-top: 7px;
 }
@@ -34,12 +37,14 @@
 
 .icon {
   color: #676767;
+  color: white;
 }
 
 .footer .contact {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   color: #676767;
+  color: white;
 
   padding: 5px 18px 0 0;
 }
@@ -48,6 +53,7 @@
   font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #9e9e9e;
+  color: white;
   margin: 7px 0 0 0;
   display: flex;
   align-items: center;
@@ -61,6 +67,7 @@
 
 .social_container {
   border: 2px solid #676767a6;
+  border: 2px solid white;
   height: 30px;
   width: 30px;
   border-radius: 50%;

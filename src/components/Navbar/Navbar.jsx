@@ -1,4 +1,5 @@
 "use client";
+import Link from "next/link";
 import styles from "./navbar.module.css";
 
 function Navbar() {
@@ -8,8 +9,10 @@ function Navbar() {
         <p>HOME</p>
       </div>
       <div className={styles.nav_item}>
-        {" "}
-        <p>ABOUT US</p>
+        <Link href="/about-us">
+          {" "}
+          <p>ABOUT US</p>
+        </Link>{" "}
       </div>
       <div className={styles.nav_item}>
         {" "}
