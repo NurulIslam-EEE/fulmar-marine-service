@@ -21,7 +21,7 @@ function HomeContent() {
         <img src="/images/quote.jpg" alt="" />
       </div>
 
-      <h4>Click on the logos to download product brochures.</h4>
+      <h4>In Association with.</h4>
       <div>
         <img src="/images/euramco-safety-logo-small.jpg" alt="" />
         <img src="/images/anest-iwata-logo-small.jpg" alt="" />

@@ -17,7 +17,7 @@
 .nav_container .nav_item {
   border-bottom: 2px solid transparent;
   padding: 5px;
-  margin-left: 40px;
+  margin-right: 40px;
   transition: 0.8s;
 }
 .nav_container .nav_item:hover {

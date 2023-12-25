@@ -56,7 +56,7 @@ function CarouselComp() {
       <Carousel
         responsive={responsive}
         autoPlay={true}
-        autoPlaySpeed={3000}
+        autoPlaySpeed={5000}
         infinite={true}
         customLeftArrow={<CustomLeftArrow />}
         customRightArrow={<CustomRightArrow />}

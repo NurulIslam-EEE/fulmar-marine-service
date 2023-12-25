@@ -21,7 +21,7 @@ function Navbar() {
       </div>
       <div className={styles.nav_item}>
         {" "}
-        <p>CERTIFICATION</p>
+        <p>CERTIFICATIONS</p>
       </div>
 
       <div className={styles.nav_item}>
