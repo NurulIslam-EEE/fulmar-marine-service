@@ -10,8 +10,9 @@
 
 .nav_container {
   display: flex;
-  justify-content: center;
+  justify-content: flex-start;
   align-items: center;
+  margin-bottom: 15px;
 }
 .nav_container .nav_item {
   border-bottom: 2px solid transparent;

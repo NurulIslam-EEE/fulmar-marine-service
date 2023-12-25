@@ -7,7 +7,7 @@ function Banner({ config }) {
   return (
     <div className={styles.banner}>
       <div className="container">
-        {/* <Navbar /> */}
+        <Navbar />
 
         {config?.show && (
           <>

@@ -9,11 +9,11 @@ function Header() {
         <div className={styles.logo}>
           <img src="/images/FINAL LOGO 2.png" alt="" />
         </div>
-        {/* <div className={styles.contactinfo}> */}
-        {/* <p>+880-2333313030</p>
-          <p>info@fmscgp.com</p> */}
-        <Navbar />
-        {/* </div> */}
+        <div className={styles.contactinfo}>
+          <p>+880-2333313030</p>
+          <p>info@fmscgp.com</p>
+          {/* <Navbar /> */}
+        </div>
       </div>
     </div>
   );
