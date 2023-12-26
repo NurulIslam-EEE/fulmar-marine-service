@@ -119,3 +119,40 @@ a {
 } */
 
 /* custom */
+.innercontent {
+  margin: 40px 0px 50px 0px;
+  padding: 0;
+}
+
+/* Breadcrumbs */
+
+.breadcrumbs {
+  display: flex;
+  align-items: center;
+  font-size: 18px;
+  color: #939393;
+  /* height: 25px; */
+  border-bottom: #a9a9a9 solid 1px;
+  padding: 0 0 10px 0;
+  margin-bottom: 10px;
+}
+
+.breadcrumbs .title {
+  font-size: 22px;
+  margin: 5px 0;
+  margin-right: 4px;
+}
+.breadcrumbs .navigation {
+  font-size: 13px;
+  margin-left: 4px;
+}
+
+/* about-us */
+
+.about-us {
+  margin-bottom: 20px;
+}
+.about-us p {
+  color: #939393;
+  font-size: 14px;
+}

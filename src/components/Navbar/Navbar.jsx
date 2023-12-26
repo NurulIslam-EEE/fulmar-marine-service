@@ -6,7 +6,9 @@ function Navbar() {
   return (
     <div className={styles.nav_container}>
       <div className={styles.nav_item}>
-        <p>HOME</p>
+        <Link href="/">
+          <p>HOME</p>
+        </Link>
       </div>
       <div className={styles.nav_item}>
         <Link href="/about-us">
@@ -20,7 +22,9 @@ function Navbar() {
       </div>
       <div className={styles.nav_item}>
         {" "}
-        <p>SERVICE PORT</p>
+        <Link href="/service-port">
+          <p>SERVICE PORT</p>
+        </Link>{" "}
       </div>
       <div className={styles.nav_item}>
         {" "}

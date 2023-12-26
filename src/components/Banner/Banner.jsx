@@ -12,13 +12,13 @@ function Banner({ config }) {
         {config?.show && (
           <>
             <div className={styles.bannerImg}>
-              <img src="/images/banners-slide-02.jpg" alt="" />
+              <img src={config?.img} alt="" />
             </div>
           </>
         )}
         {/* <img className={styles.bg} src="/images/body-bg.png" alt="" /> */}
 
-        <CarouselComp />
+        {!config?.show && <CarouselComp />}
       </div>
     </div>
   );
