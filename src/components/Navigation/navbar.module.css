@@ -5,22 +5,25 @@
 .nav_container p {
   color: black;
   font-weight: 500;
+  font-size: 14px;
   cursor: pointer;
+  margin-bottom: 0;
 }
 
 .nav_container {
   display: flex;
   justify-content: center;
   align-items: center;
-  margin-bottom: 15px;
+  padding: 10px 0;
 }
-.nav_container .nav_item {
+.nav_item {
   border-bottom: 2px solid transparent;
   padding: 5px;
   margin-right: 40px;
   transition: 0.8s;
 }
-.nav_container .nav_item:hover {
+.nav_item:hover {
   border-bottom: 2px solid black;
+  /* border-top: 2px solid black; */
   transition: 0.8s;
 }

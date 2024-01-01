@@ -1,13 +1,14 @@
 "use client";
 import CarouselComp from "../Carousel/CarouselComp";
-import Navbar from "../Navbar/Navbar";
+import Navigation from "../Navigation/Navigation";
+
 import styles from "./Banner.module.css";
 
 function Banner({ config }) {
   return (
     <div className={styles.banner}>
       <div className="container">
-        <Navbar />
+        <Navigation />
 
         {config?.show && (
           <>

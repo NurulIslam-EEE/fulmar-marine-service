@@ -1,3 +1,4 @@
+import Link from "next/link";
 import styles from "./home.module.css";
 
 function HomeContent() {
@@ -18,14 +19,27 @@ function HomeContent() {
           market-leading performance service to our customers. <br /> <br /> Our
           ultimate satisfaction is to fulfill our customers requirements.
         </p>
-        <img src="/images/quote.jpg" alt="" />
+        <img src="/images/quote.png" alt="" />
       </div>
+      <Link
+        href="/fulmar.pdf"
+        download="Fulmar Marine Services"
+        target="_blank"
+        rel="noreferrer"
+      >
+        <div className={styles.adobe}>
+          {" "}
+          <img src="/images/adobe.png" alt="" />
+        </div>
+      </Link>
 
       <h4>In Association with.</h4>
-      <div>
-        <img src="/images/euramco-safety-logo-small.jpg" alt="" />
-        <img src="/images/anest-iwata-logo-small.jpg" alt="" />
-        <img src="/images/teufelberger-logo-small.jpg" alt="" />
+      <div className={styles.association}>
+        <img src="/images/cpa.png" alt="" />
+        <img src="/images/bc.png" alt="" />
+        <img className={styles.mespas} src="/images/mespas.png" alt="" />
+        <img className={styles.procure} src="/images/procure.svg" alt="" />
+        <img className={styles.procure} src="/images/Shipserv.jpg" alt="" />
       </div>
     </div>
   );

@@ -1,10 +1,10 @@
 .footerwrapper {
   width: 100%;
-  background: #0066a6;
+  /* background: #0066a6; */
   /* background: #304146; */
-  /* background: url(http://adamallys.com/images/footer-bg.jpg); */
+  background: url(../../../public/images/footerBg.jpg);
   min-height: 200px;
-  /* height: fit-content; */
+  height: fit-content;
 }
 
 /* top left repeat */

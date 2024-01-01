@@ -6,6 +6,7 @@ import { AiOutlineWechat } from "react-icons/ai";
 import styles from "./footer.module.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
+import { IoLogoWhatsapp } from "react-icons/io";
 function Footer() {
   return (
     <footer className={styles.footerwrapper}>
@@ -17,7 +18,7 @@ function Footer() {
             <br />
             <span>P.O.Box 4684 Dubai UAE E-mail info@adamallys.com</span>
           </p> */}
-          <strong>Fulmar Marine Service</strong>
+          <strong>Fulmar Marine Services</strong>
 
           <p>
             <MdEmail className={styles.icon} /> info@fmscgp.com
@@ -30,7 +31,7 @@ function Footer() {
 
           <p>
             <FaLocationDot className={styles.icon} /> House 7, Lane 2, Road 2,
-            Block L. Port Connecting Road, Halishahar, Chittagong.
+            Block L. Port Connecting Road, Halishahar, Chittagong, Bangladesh
           </p>
         </div>
         <div className={styles.contact}></div>
@@ -45,7 +46,7 @@ function Footer() {
               <AiOutlineWechat />
             </div>
             <div className={styles.social_container}>
-              <FaFacebookF />
+              <IoLogoWhatsapp />
             </div>
           </div>
         </div>
