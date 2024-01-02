@@ -29,7 +29,7 @@ function Navigation() {
         <div className={styles.nav_item}>
           {" "}
           <Link href="/service-port">
-            <p>SERVICE PORT</p>
+            <p>SERVICE PORTS</p>
           </Link>{" "}
         </div>
         <div className={styles.nav_item}>

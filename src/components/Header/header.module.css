@@ -1,5 +1,5 @@
 .header {
-  height: 112px;
+  height: 100px;
   width: 100%;
   /* background: #014e96; */
   background: white;
@@ -18,7 +18,7 @@
   justify-content: center;
 }
 .header .logo img {
-  width: 220px;
+  width: 240px;
 }
 
 .header .content {

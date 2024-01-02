@@ -36,7 +36,7 @@ function Footer() {
         </div>
         <div className={styles.contact}></div>
         <div className={styles.copyright}>
-          © Copyright {new Date().getFullYear()} Fulmar Marine Service. All
+          © Copyright {new Date().getFullYear()} Fulmar Marine Services. All
           Rights Reserved.
           <div className={styles.social}>
             <div className={styles.social_container}>

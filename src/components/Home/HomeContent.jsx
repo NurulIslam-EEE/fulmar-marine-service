@@ -21,6 +21,7 @@ function HomeContent() {
         </p>
         <img src="/images/quote.png" alt="" />
       </div>
+      <h3>Click here to procure</h3>
       <Link
         href="/fulmar.pdf"
         download="Fulmar Marine Services"

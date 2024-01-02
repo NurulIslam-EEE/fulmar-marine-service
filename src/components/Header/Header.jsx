@@ -3,14 +3,18 @@ import Navbar from "../Navigation/Navigation";
 import styles from "./header.module.css";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
+import Link from "next/link";
 
 function Header() {
   return (
     <div className={styles.header}>
       <div className={styles.content + ` container`}>
-        <div className={styles.logo}>
-          <img src="/images/FINAL LOGO 2.png" alt="" />
-        </div>
+        <Link href="/">
+          <div className={styles.logo}>
+            <img src="/images/FINAL LOGO 2.png" alt="" />
+          </div>
+        </Link>
+
         <div className={styles.contactinfo}>
           <p>
             {" "}
