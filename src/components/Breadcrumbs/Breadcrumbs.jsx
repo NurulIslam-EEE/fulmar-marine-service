@@ -1,10 +1,10 @@
 import React from "react";
 
-function Breadcrumbs() {
+function Breadcrumbs({ data }) {
   return (
     <div className="breadcrumbs">
       <p className="title">PROFILE</p> |
-      <div className="navigation">Home &gt; About</div>
+      <div className="navigation">Home &gt; {data?.one}</div>
     </div>
   );
 }

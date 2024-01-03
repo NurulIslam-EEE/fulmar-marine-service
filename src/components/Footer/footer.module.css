@@ -12,7 +12,8 @@
 .footer {
   height: fit-content;
   margin: auto;
-  padding: 20px 0;
+  padding-top: 20px;
+  padding-bottom: 20px;
 }
 .footer .address {
   /* height: 30px; */

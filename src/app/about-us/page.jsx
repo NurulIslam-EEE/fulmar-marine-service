@@ -6,7 +6,7 @@ function AboutUs() {
   return (
     <div className="container about-us">
       <Banner config={{ show: true, img: "/images/about-us-banner.png" }} />
-      <Breadcrumbs />
+      <Breadcrumbs data={{ one: "About" }} />
 
       <h3> VISION</h3>
       <p>
