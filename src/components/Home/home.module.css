@@ -24,9 +24,11 @@
 
   margin-right: 15px;
 }
-.association .mespas,
+.association .mespas {
+  width: 120px;
+}
 .association .procure {
-  width: 100px;
+  width: 170px;
 }
 .about {
   display: flex;
@@ -46,4 +48,13 @@
 
 .adobe img {
   width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .about {
+    flex-direction: column;
+  }
+  .about img {
+    width: 90%;
+  }
 }

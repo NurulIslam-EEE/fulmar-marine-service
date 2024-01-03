@@ -21,7 +21,7 @@ function HomeContent() {
         </p>
         <img src="/images/quote.png" alt="" />
       </div>
-      <h3>Click here to procure</h3>
+      <h3>Click here for brochure</h3>
       <Link
         href="/fulmar.pdf"
         download="Fulmar Marine Services"
@@ -40,7 +40,7 @@ function HomeContent() {
         <img src="/images/bc.png" alt="" />
         <img className={styles.mespas} src="/images/mespas.png" alt="" />
         <img className={styles.procure} src="/images/procure.svg" alt="" />
-        <img className={styles.procure} src="/images/Shipserv.jpg" alt="" />
+        <img className={styles.procure} src="/images/Shipserv.png" alt="" />
       </div>
     </div>
   );

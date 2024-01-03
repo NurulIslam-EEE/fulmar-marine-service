@@ -7,6 +7,7 @@ import styles from "./footer.module.css";
 import { FaPhoneAlt } from "react-icons/fa";
 import { FaFacebookF } from "react-icons/fa";
 import { IoLogoWhatsapp } from "react-icons/io";
+import Link from "next/link";
 function Footer() {
   return (
     <footer className={styles.footerwrapper}>
@@ -39,15 +40,27 @@ function Footer() {
           © Copyright {new Date().getFullYear()} Fulmar Marine Services. All
           Rights Reserved.
           <div className={styles.social}>
-            <div className={styles.social_container}>
+            <Link
+              href="https://linkedin.com/in/fulmar-marine-services-60ab9528a"
+              target="_blank"
+              className={styles.social_container}
+            >
               <FaLinkedinIn />
-            </div>
-            <div className={styles.social_container}>
+            </Link>
+            <Link
+              href="Wechat - fms_Chittagong"
+              target="_blank"
+              className={styles.social_container}
+            >
               <AiOutlineWechat />
-            </div>
-            <div className={styles.social_container}>
+            </Link>
+            <Link
+              href="whatsapp://send?8801919051677"
+              target="_blank"
+              className={styles.social_container}
+            >
               <IoLogoWhatsapp />
-            </div>
+            </Link>
           </div>
         </div>
       </div>

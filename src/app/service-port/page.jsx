@@ -8,7 +8,7 @@ function page() {
       <Banner
         config={{
           show: true,
-          img: "/images/service-and-facilities-banner.png",
+          img: "/images/service-port.jpg",
         }}
       />
       <Breadcrumbs />

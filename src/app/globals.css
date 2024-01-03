@@ -167,4 +167,19 @@ p {
 .about-us p {
   color: #939393;
   font-size: 14px;
+  text-align: justify;
+}
+.about-us h3 {
+  color: #939393;
+}
+
+.about-us ul {
+  list-style: none;
+}
+
+.about-us ul li:before {
+  content: "✓";
+  font-size: 17px;
+  color: green;
+  font-weight: 900;
 }
