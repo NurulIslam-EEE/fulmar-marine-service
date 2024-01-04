@@ -1,11 +1,12 @@
 .header {
-  height: 100px;
+  /* height: 100px; */
   width: 100%;
   /* background: #014e96; */
   background: white;
   /* position: fixed;
   top: 0;
   z-index: 7; */
+  padding: 20px 0;
 }
 .header .icon {
   color: #676767;
@@ -38,6 +39,6 @@
 
 @media only screen and (max-width: 600px) {
   .header .logo img {
-    width: 140px;
+    width: 180px;
   }
 }

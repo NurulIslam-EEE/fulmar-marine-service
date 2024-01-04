@@ -4,8 +4,12 @@ import styles from "./header.module.css";
 import { MdEmail } from "react-icons/md";
 import { FaPhoneAlt } from "react-icons/fa";
 import Link from "next/link";
+import useWindowDimensions from "@/hooks/useWindowDimensions";
+import MobileNav from "../Navigation/MobileNav";
 
 function Header() {
+  const { height, width } = useWindowDimensions();
+  // console.log(height, width, ".......");
   return (
     <div className={styles.header}>
       <div className={styles.content + ` container`}>
@@ -14,20 +18,21 @@ function Header() {
             <img src="/images/FINAL LOGO 2.png" alt="" />
           </div>
         </Link>
-
-        <div className={styles.contactinfo}>
-          <p>
-            {" "}
-            <FaPhoneAlt className={styles.icon} />
-            +880-2333313030
-          </p>
-          <p>
-            {" "}
-            <MdEmail className={styles.icon} />
-            info@fmscgp.com
-          </p>
-          {/* <Navbar /> */}
-        </div>
+        {width < 821 && <MobileNav />}
+        {width > 820 && (
+          <div className={styles.contactinfo}>
+            <p>
+              {" "}
+              <FaPhoneAlt className={styles.icon} />
+              +880-2333313030
+            </p>
+            <p>
+              {" "}
+              <MdEmail className={styles.icon} />
+              info@fmscgp.com
+            </p>
+          </div>
+        )}
       </div>
     </div>
   );

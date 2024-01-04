@@ -1,5 +1,7 @@
+"use client";
 import Link from "next/link";
 import styles from "./home.module.css";
+import MobileNav from "../Navigation/MobileNav";
 
 function HomeContent() {
   return (
@@ -41,6 +43,7 @@ function HomeContent() {
         <img className={styles.mespas} src="/images/mespas.png" alt="" />
         <img className={styles.procure} src="/images/procure.svg" alt="" />
         <img className={styles.procure} src="/images/Shipserv.png" alt="" />
+        <img src="/images/ccci.png" alt="" />
       </div>
     </div>
   );

@@ -18,6 +18,15 @@
   line-height: 13px;
   margin-bottom: 10px;
 }
+.association {
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+.association::-webkit-scrollbar {
+  display: none;
+}
 .association img {
   width: 50px;
   margin-bottom: 5px;
