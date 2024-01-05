@@ -94,7 +94,7 @@ export default function MobileNav() {
                     className={styles.nav_item}
                   >
                     {" "}
-                    <p>SERVICE PORT</p>
+                    <p>SERVICE PORTS</p>
                   </Nav.Link>
                   <Nav.Link
                     as={Link}

@@ -3,7 +3,7 @@
   /* background: #0066a6; */
   /* background: #304146; */
   background: url(../../../public/images/footerBg.jpg);
-  min-height: 200px;
+  /* min-height: 200px; */
   height: fit-content;
 }
 
@@ -13,11 +13,11 @@
   height: fit-content;
   margin: auto;
   padding-top: 20px;
-  padding-bottom: 20px;
+  padding-bottom: 30px;
 }
 .footer .address {
   /* height: 30px; */
-  padding: 0 0 15px 0;
+  padding: 15px 0 15px 0;
   color: white;
   width: 100%;
   background: url(http://adamallys.com/images/footer-border-bottom.jpg) bottom
@@ -59,6 +59,7 @@
   display: flex;
   align-items: center;
   justify-content: space-between;
+  padding-bottom: 10px;
 }
 
 .social {

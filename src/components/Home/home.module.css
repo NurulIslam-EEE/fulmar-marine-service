@@ -39,6 +39,10 @@
 .association .procure {
   width: 170px;
 }
+.association img:hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+}
 .about {
   display: flex;
   justify-content: space-between;
