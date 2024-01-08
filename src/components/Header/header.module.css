@@ -1,6 +1,6 @@
 .header {
   /* height: 100px; */
-  width: 100%;
+
   /* background: #014e96; */
   background: white;
   /* position: fixed;
@@ -23,6 +23,7 @@
 }
 
 .header .content {
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: space-between;

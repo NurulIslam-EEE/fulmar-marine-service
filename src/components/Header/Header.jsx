@@ -12,7 +12,7 @@ function Header() {
   // console.log(height, width, ".......");
   return (
     <div className={styles.header}>
-      <div className={styles.content + ` container`}>
+      <div className={styles.content + " container"}>
         <Link href="/">
           <div className={styles.logo}>
             <img src="/images/FINAL LOGO 2.png" alt="" />

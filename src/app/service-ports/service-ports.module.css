@@ -1,3 +1,7 @@
+.service_ports {
+  margin-left: 0;
+  margin-right: 0;
+}
 .service_ports .port_item_container {
   display: flex;
   align-items: center;

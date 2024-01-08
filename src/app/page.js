@@ -14,7 +14,7 @@ export default function Home() {
     }, 2500);
   });
   return (
-    <main className={styles.main}>
+    <main className={styles.main + ""}>
       <Banner />
       <HomeContent />
     </main>

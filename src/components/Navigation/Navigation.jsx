@@ -52,9 +52,16 @@ function Navigation() {
             <p>SERVICE PORTS</p>
           </Link>{" "}
         </div>
-        <div className={styles.nav_item}>
-          {" "}
-          <p>CERTIFICATIONS</p>
+        <div
+          className={
+            pathname === "/certifications"
+              ? styles.nav_item_active
+              : styles.nav_item
+          }
+        >
+          <Link href="/certifications">
+            <p>CERTIFICATIONS</p>
+          </Link>
         </div>
 
         <div
