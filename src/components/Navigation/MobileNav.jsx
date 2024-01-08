@@ -52,7 +52,7 @@ export default function MobileNav() {
     </Navbar> */}
 
       {["xxl"].map((expand) => (
-        <Navbar key={false} expand={false} className="bg-body-tertiary">
+        <Navbar key={false} expand={false} className="">
           <Container fluid>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
@@ -63,54 +63,82 @@ export default function MobileNav() {
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
-                  FULMAR
+                  FULMAR MARINE SERVICES
                 </Offcanvas.Title>
               </Offcanvas.Header>
               <Offcanvas.Body>
                 <Nav className="justify-content-end flex-grow-1 pe-3">
-                  <Nav.Link as={Link} href="/" className={styles.nav_item}>
-                    {" "}
-                    <p>HOME</p>
+                  <Nav.Link
+                    as={Link}
+                    href="/"
+                    className={styles.nav_item}
+                    onToggle={false}
+                  >
+                    <Navbar.Toggle
+                      aria-controls={`offcanvasNavbar-expand-${expand}`}
+                    >
+                      {" "}
+                      <p>HOME</p>
+                    </Navbar.Toggle>
                   </Nav.Link>
                   <Nav.Link
                     as={Link}
                     href="/about-us"
                     className={styles.nav_item}
                   >
-                    {" "}
-                    <p>ABOUT US</p>
+                    <Navbar.Toggle
+                      aria-controls={`offcanvasNavbar-expand-${expand}`}
+                    >
+                      <p>ABOUT US</p>
+                    </Navbar.Toggle>{" "}
                   </Nav.Link>
                   <Nav.Link
                     as={Link}
                     href="#action2"
                     className={styles.nav_item}
                   >
-                    {" "}
-                    <p>SERVICES</p>
+                    <Navbar.Toggle
+                      aria-controls={`offcanvasNavbar-expand-${expand}`}
+                    >
+                      {" "}
+                      <p>SERVICES</p>
+                    </Navbar.Toggle>
                   </Nav.Link>
                   <Nav.Link
                     as={Link}
-                    href="/service-port"
+                    href="/service-ports"
                     className={styles.nav_item}
                   >
-                    {" "}
-                    <p>SERVICE PORTS</p>
+                    <Navbar.Toggle
+                      aria-controls={`offcanvasNavbar-expand-${expand}`}
+                    >
+                      {" "}
+                      <p>SERVICE PORTS</p>
+                    </Navbar.Toggle>
                   </Nav.Link>
                   <Nav.Link
                     as={Link}
                     href="#action2"
                     className={styles.nav_item}
                   >
-                    {" "}
-                    <p>CERTIFICATIONS</p>
+                    <Navbar.Toggle
+                      aria-controls={`offcanvasNavbar-expand-${expand}`}
+                    >
+                      {" "}
+                      <p>CERTIFICATIONS</p>
+                    </Navbar.Toggle>
                   </Nav.Link>
                   <Nav.Link
                     as={Link}
-                    href="#action2"
+                    href="/contact-us"
                     className={styles.nav_item}
                   >
-                    {" "}
-                    <p>CONTACT US</p>
+                    <Navbar.Toggle
+                      aria-controls={`offcanvasNavbar-expand-${expand}`}
+                    >
+                      {" "}
+                      <p>CONTACT US</p>
+                    </Navbar.Toggle>
                   </Nav.Link>
                 </Nav>
               </Offcanvas.Body>

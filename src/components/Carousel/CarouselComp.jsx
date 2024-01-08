@@ -58,8 +58,8 @@ function CarouselComp() {
         autoPlay={true}
         autoPlaySpeed={5000}
         infinite={true}
-        customLeftArrow={<CustomLeftArrow />}
-        customRightArrow={<CustomRightArrow />}
+        // customLeftArrow={<CustomLeftArrow />}
+        // customRightArrow={<CustomRightArrow />}
       >
         {["/images/b1.jpg", "/images/b2.jpg", "/images/b3.jpg"].map((x) => {
           return (

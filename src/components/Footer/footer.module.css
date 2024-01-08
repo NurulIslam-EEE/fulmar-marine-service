@@ -24,7 +24,6 @@
     left repeat-x;
 }
 .footer .address p {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
   color: #676767;
   color: white;
@@ -42,7 +41,6 @@
 }
 
 .footer .contact {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 11px;
   color: #676767;
   color: white;
@@ -51,7 +49,6 @@
 }
 
 .footer .copyright {
-  font-family: Arial, Helvetica, sans-serif;
   font-size: 15px;
   color: #9e9e9e;
   color: white;
@@ -84,4 +81,13 @@
 .social_container:hover {
   transform: translateY(-5px);
   transition: 0.5s;
+}
+
+@media (max-width: 720px) {
+  .footer .copyright {
+    flex-direction: column;
+  }
+  .social {
+    margin-top: 10px;
+  }
 }

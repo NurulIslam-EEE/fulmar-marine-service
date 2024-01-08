@@ -6,10 +6,10 @@ import MobileNav from "../Navigation/MobileNav";
 function HomeContent() {
   return (
     <div className={styles.homeContent + " container"}>
-      <h3>Company Profile</h3>
+      <h3 className="mt-4 mb-3">Company Profile</h3>
       <div className={styles.about}>
         <p>
-          Fulmar marine services established in 2021 in Bangladesh. We are
+          Fulmar Marine Services established in 2021 in Bangladesh. We are
           providing best quality supplies that modern ship owner/operators
           require through the utilization of an audacious import strategy, and
           aligning this with our customer focused service ethics. Fulmar marine
@@ -23,27 +23,29 @@ function HomeContent() {
         </p>
         <img src="/images/quote.png" alt="" />
       </div>
-      <h3>Click here for brochure</h3>
-      <Link
-        href="/fulmar.pdf"
-        download="Fulmar Marine Services"
-        target="_blank"
-        rel="noreferrer"
-      >
-        <div className={styles.adobe}>
-          {" "}
-          <img src="/images/adobe.png" alt="" />
-        </div>
-      </Link>
+      <div className="d-flex align-items-center my-4">
+        <h5>Click here to download brochure</h5>
+        <Link
+          href="/fulmar.pdf"
+          download="Fulmar Marine Services"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <div className={styles.adobe}>
+            {" "}
+            <img src="/images/adobe.png" alt="" />
+          </div>
+        </Link>
+      </div>
 
       <h4>In Association with.</h4>
       <div className={styles.association}>
         <img src="/images/cpa.png" alt="" />
         <img src="/images/bc.png" alt="" />
+        <img src="/images/ccci.png" alt="" />
         <img className={styles.mespas} src="/images/mespas.png" alt="" />
         <img className={styles.procure} src="/images/procure.svg" alt="" />
         <img className={styles.procure} src="/images/Shipserv.png" alt="" />
-        <img src="/images/ccci.png" alt="" />
       </div>
     </div>
   );

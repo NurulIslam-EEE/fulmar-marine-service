@@ -1,10 +1,10 @@
 import Banner from "@/components/Banner/Banner";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
-import React from "react";
+import styles from "./service-ports.module.css";
 
 function page() {
   return (
-    <div className="container service_ports">
+    <div className={styles.service_ports + " container"}>
       <Banner
         config={{
           show: true,
@@ -12,20 +12,20 @@ function page() {
         }}
       />
       <Breadcrumbs data={{ one: "Service Ports" }} />
-      <div className="port_item_container">
-        <div className="icon">&gt;</div>
+      <div className={styles.port_item_container}>
+        <div className={styles.icon}>&gt;</div>
         Chattogram Port
       </div>
-      <div className="port_item_container">
-        <div className="icon">&gt;</div>
+      <div className={styles.port_item_container}>
+        <div className={styles.icon}>&gt;</div>
         Mongla Port
       </div>
-      <div className="port_item_container">
-        <div className="icon">&gt;</div>
+      <div className={styles.port_item_container}>
+        <div className={styles.icon}>&gt;</div>
         Payra Port including OPL
       </div>
-      <div className="port_item_container">
-        <div className="icon">&gt;</div>
+      <div className={styles.port_item_container}>
+        <div className={styles.icon}>&gt;</div>
         Matarbari Port
       </div>
     </div>

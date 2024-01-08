@@ -8,7 +8,7 @@ function AboutUs() {
       <Banner config={{ show: true, img: "/images/about-us-banner.png" }} />
       <Breadcrumbs data={{ one: "About" }} />
 
-      <h3> VISION</h3>
+      <h3 className="mt-4 mb-3"> VISION</h3>
       <p>
         AT OUR FULMAR MARINE SERVICES, WE ENVISION A MARITIME INDUSTRY
         REVOLUTIONIZED BY SEAMLESS PROVISIONS AND UNPARALLELED SERVICE. WE AIM
@@ -27,7 +27,7 @@ function AboutUs() {
         SATISFACTION BECOME SYNONYMOUS WITH THE SMOOTH SAILING OF MARITIME
         ENDEAVORS WORLDWIDE.
       </p>
-      <h3>MISSION</h3>
+      <h3 className="mt-4 mb-3">MISSION</h3>
       <p>
         {" "}
         Our mission at this FULMAR MARINE SERVICES is to be the cornerstone of

@@ -2,31 +2,53 @@
 import Link from "next/link";
 import styles from "./navbar.module.css";
 
-import { useEffect } from "react";
+import { usePathname } from "next/navigation";
 
 function Navigation() {
-  useEffect(() => {}, []);
+  // useEffect(() => {}, []);
+
+  const pathname = usePathname();
+  // console.log(pathname);
+
   return (
     <>
       <div className={styles.nav_container}>
-        <div className={styles.nav_item}>
+        <div
+          className={
+            pathname === "/" ? styles.nav_item_active : styles.nav_item
+          }
+        >
           <Link href="/">
             <p>HOME</p>
           </Link>
         </div>
-        <div className={styles.nav_item}>
+        <div
+          className={
+            pathname === "/about-us" ? styles.nav_item_active : styles.nav_item
+          }
+        >
           <Link href="/about-us">
             {" "}
             <p>ABOUT US</p>
           </Link>{" "}
         </div>
-        <div className={styles.nav_item}>
+        <div
+          className={
+            pathname === "/services" ? styles.nav_item_active : styles.nav_item
+          }
+        >
           {" "}
           <p>SERVICES</p>
         </div>
-        <div className={styles.nav_item}>
+        <div
+          className={
+            pathname === "/service-ports"
+              ? styles.nav_item_active
+              : styles.nav_item
+          }
+        >
           {" "}
-          <Link href="/service-port">
+          <Link href="/service-ports">
             <p>SERVICE PORTS</p>
           </Link>{" "}
         </div>
@@ -35,9 +57,18 @@ function Navigation() {
           <p>CERTIFICATIONS</p>
         </div>
 
-        <div className={styles.nav_item}>
+        <div
+          className={
+            pathname === "/contact-us"
+              ? styles.nav_item_active
+              : styles.nav_item
+          }
+        >
           {" "}
-          <p>CONTACT US</p>
+          <Link href="/contact-us">
+            {" "}
+            <p>CONTACT US</p>
+          </Link>
         </div>
       </div>
     </>
