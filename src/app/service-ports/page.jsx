@@ -1,7 +1,8 @@
 "use client";
+
 import Banner from "@/components/Banner/Banner";
-import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 import styles from "./service-ports.module.css";
+import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 
 function ServicePorts() {
   return (

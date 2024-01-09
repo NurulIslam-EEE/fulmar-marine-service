@@ -1,6 +1,7 @@
+"use client";
+
 import Banner from "@/components/Banner/Banner";
 import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
-import React from "react";
 
 function Services() {
   return (
