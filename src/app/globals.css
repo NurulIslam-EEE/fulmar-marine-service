@@ -210,6 +210,10 @@ a {
   .container {
     padding: 0 10px !important;
   }
+
+  .arrow_hover {
+    margin-top: 10px;
+  }
 }
 
 /* scrollbar */
