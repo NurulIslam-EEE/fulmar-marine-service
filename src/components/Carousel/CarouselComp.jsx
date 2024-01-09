@@ -54,6 +54,7 @@ function CarouselComp() {
   return (
     <div>
       <Carousel
+        className={styles.slide_container + " arrow_hover"}
         responsive={responsive}
         autoPlay={true}
         autoPlaySpeed={5000}

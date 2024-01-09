@@ -28,7 +28,7 @@
   align-items: center;
   justify-content: space-between;
   height: 100%;
-  padding-bottom: 15px;
+  /* padding-bottom: 15px; */
 }
 .contactinfo p {
   color: black;

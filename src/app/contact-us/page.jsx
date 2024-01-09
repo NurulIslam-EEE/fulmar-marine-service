@@ -5,7 +5,7 @@ import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 function ContactUs() {
   return (
     <>
-      <Banner config={{ show: true, img: "/images/about-us-banner.png" }} />
+      <Banner config={{ show: true, img: "/images/about-us-banner.jpg" }} />
       <div className="container">
         <Breadcrumbs data={{ one: "Contact-us" }} />
 

@@ -49,8 +49,8 @@
 
 .container {
   max-width: 960px !important;
-  margin: 0 auto;
   padding: 0 5px !important;
+  margin: 0 auto !important;
 }
 
 /* @media (prefers-color-scheme: dark) {
@@ -191,6 +191,17 @@ a {
 
 .react-multiple-carousel__arrow {
   background-color: transparent !important;
+}
+
+.react-multiple-carousel__arrow--left,
+.react-multiple-carousel__arrow--right {
+  display: none;
+}
+.arrow_hover:hover .react-multiple-carousel__arrow--left {
+  display: block;
+}
+.arrow_hover:hover .react-multiple-carousel__arrow--right {
+  display: block;
 }
 
 @media (max-width: 720px) {

@@ -37,8 +37,9 @@ function Navigation() {
             pathname === "/services" ? styles.nav_item_active : styles.nav_item
           }
         >
-          {" "}
-          <p>SERVICES</p>
+          <Link href="/services">
+            <p>SERVICES</p>
+          </Link>
         </div>
         <div
           className={

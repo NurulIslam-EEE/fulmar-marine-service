@@ -27,8 +27,8 @@
   font-size: 14px;
   color: #676767;
   color: white;
-  line-height: 16px;
-  margin-top: 7px;
+  line-height: 12px;
+  margin-top: 6px;
 }
 .footer .address p span {
   font-weight: bold;
@@ -88,6 +88,13 @@
     flex-direction: column;
   }
   .social {
-    margin-top: 10px;
+    margin-top: 2px;
+  }
+  .footer .address p {
+    margin-bottom: 12px;
+  }
+  .footer .address {
+    /* height: 30px; */
+    padding: 5px 0 10px 0;
   }
 }

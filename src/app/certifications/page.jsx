@@ -5,9 +5,11 @@ import Breadcrumbs from "@/components/Breadcrumbs/Breadcrumbs";
 function Certifications() {
   return (
     <>
-      <Banner config={{ show: true, img: "/images/about-us-banner.png" }} />
-      <div className="container">
-        <Breadcrumbs data={{ one: "Certifications" }} />
+      <Banner config={{ show: true, img: "/images/about-us-banner.jpg" }} />
+      <div className="certifications">
+        <div className="container">
+          <Breadcrumbs data={{ one: "Certifications" }} />
+        </div>
       </div>
     </>
   );
