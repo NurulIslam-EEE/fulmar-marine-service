@@ -27,7 +27,7 @@
   font-size: 14px;
   color: #676767;
   color: white;
-  line-height: 12px;
+  /* line-height: 12px; */
   margin-top: 6px;
 }
 .footer .address p span {

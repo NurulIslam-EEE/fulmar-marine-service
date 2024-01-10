@@ -13,7 +13,7 @@ function AboutUs() {
 
           <h3 className="mt-4 mb-3"> VISION</h3>
           <p>
-            AT OUR FULMAR MARINE SERVICES, WE ENVISION A MARITIME INDUSTRY
+            {/* AT OUR FULMAR MARINE SERVICES, WE ENVISION A MARITIME INDUSTRY
             REVOLUTIONIZED BY SEAMLESS PROVISIONS AND UNPARALLELED SERVICE. WE
             AIM TO BE THE BEACON OF RELIABILITY, OFFERING AN EXTENSIVE ARRAY OF
             QUALITY SUPPLIES AND SERVICES TAILORED TO EVERY VESSEL'S UNIQUE
@@ -28,7 +28,23 @@ function AboutUs() {
             CONFIDENCE. ULTIMATELY, OUR VISION IS TO REDEFINE SHIP SUPPLY,
             BECOMING THE INDISPENSABLE ALLY OF EVERY SHIP, WHERE OUR COMMITMENT
             TO EXCELLENCE AND DEDICATION TO CUSTOMER SATISFACTION BECOME
-            SYNONYMOUS WITH THE SMOOTH SAILING OF MARITIME ENDEAVORS WORLDWIDE.
+            SYNONYMOUS WITH THE SMOOTH SAILING OF MARITIME ENDEAVORS WORLDWIDE. */}
+            At our fulmar marine services, we envision a maritime industry
+            revolutionized by seamless provisions and unparalleled service. We
+            aim to be the beacon of reliability, offering an extensive array of
+            quality supplies and services tailored to every vessel's unique
+            requirements. our vision transcends mere transactions; it's about
+            fostering enduring partnerships built on trust, efficiency, and
+            innovation. We strive to set new standards, integrating cutting-edge
+            technology and sustainable practices into our operations, ensuring
+            not only the efficiency of deliveries but also the preservation of
+            our oceans. through strategic alliances and a global network, we
+            aspire to reach every corner of the maritime world, providing
+            timely, dependable solutions that empower vessels to navigate with
+            confidence. Ultimately, our vision is to redefine ship supply,
+            becoming the indispensable ally of every ship, where our commitment
+            to excellence and dedication to customer satisfaction become
+            synonymous with the smooth sailing of maritime endeavors worldwide.
           </p>
           <h3 className="mt-4 mb-3">MISSION</h3>
           <p>
