@@ -87,6 +87,10 @@
   .footer .copyright {
     flex-direction: column;
   }
+  .footer .copyright p {
+    margin-bottom: 0;
+    text-align: center;
+  }
   .social {
     margin-top: 2px;
   }
