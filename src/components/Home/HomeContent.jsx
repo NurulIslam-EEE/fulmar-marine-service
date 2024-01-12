@@ -11,8 +11,8 @@ function HomeContent() {
           Fulmar Marine Services established in 2021 in Bangladesh. We are
           providing best quality supplies that modern ship owner/operators
           require through the utilization of an audacious import strategy, and
-          aligning this with our customer focused service ethics. Fulmar marine
-          services are shaping the future of the ship-supply industry in
+          aligning this with our customer focused service ethics. Fulmar Marine
+          Services are shaping the future of the ship-supply industry in
           Bangladesh. <br /> <br />
           Utilizing our extensive inventory in excess of 45,000 marine store
           items, and combining this with our qualified efficient workers and the

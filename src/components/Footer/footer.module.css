@@ -23,7 +23,7 @@
   background: url(http://adamallys.com/images/footer-border-bottom.jpg) bottom
     left repeat-x;
 }
-.footer .address p {
+.footer .address p:not(:last-child) {
   font-size: 14px;
   color: #676767;
   color: white;

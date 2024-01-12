@@ -10,13 +10,15 @@ function ContactUs() {
       <div className="container contact-us">
         <Breadcrumbs data={{ one: "Contact-us" }} />
         <h5>E-mail</h5>
-        <p> info@fmscgp.com</p>
+        <p>
+          supply@fmscgp.com <br /> accounts@fmscgp.com
+        </p>
         <h5>Customer Care</h5>
-        <p> +880-2333313030</p>
+        <p> +8801919051677</p>
         <h5>Address</h5>
         <p>
-          House 7, Lane 2, Road 2, Block L. Port Connecting Road, Halishahar,
-          Chittagong.
+          House#7, Lane#2, Road#2, Block#L, Port Connecting Road, Halishahar,
+          Chittagong-4224, Bangladesh.
         </p>
 
         <iframe

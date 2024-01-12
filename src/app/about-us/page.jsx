@@ -29,16 +29,16 @@ function AboutUs() {
             BECOMING THE INDISPENSABLE ALLY OF EVERY SHIP, WHERE OUR COMMITMENT
             TO EXCELLENCE AND DEDICATION TO CUSTOMER SATISFACTION BECOME
             SYNONYMOUS WITH THE SMOOTH SAILING OF MARITIME ENDEAVORS WORLDWIDE. */}
-            At our fulmar marine services, we envision a maritime industry
+            At our Fulmar Marine Services, we envision a maritime industry
             revolutionized by seamless provisions and unparalleled service. We
             aim to be the beacon of reliability, offering an extensive array of
             quality supplies and services tailored to every vessel's unique
-            requirements. our vision transcends mere transactions; it's about
+            requirements. Our vision transcends mere transactions; it's about
             fostering enduring partnerships built on trust, efficiency, and
             innovation. We strive to set new standards, integrating cutting-edge
             technology and sustainable practices into our operations, ensuring
             not only the efficiency of deliveries but also the preservation of
-            our oceans. through strategic alliances and a global network, we
+            our oceans. Through strategic alliances and a global network, we
             aspire to reach every corner of the maritime world, providing
             timely, dependable solutions that empower vessels to navigate with
             confidence. Ultimately, our vision is to redefine ship supply,
@@ -49,7 +49,7 @@ function AboutUs() {
           <h3 className="mt-4 mb-3">MISSION</h3>
           <p>
             {" "}
-            Our mission at this FULMAR MARINE SERVICES is to be the cornerstone
+            Our mission at this Fulmar Marine Services is to be the cornerstone
             of maritime success, providing comprehensive, efficient, and
             sustainable solutions that exceed expectations. We are committed to:{" "}
             <br />
