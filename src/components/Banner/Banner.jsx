@@ -1,4 +1,5 @@
 "use client";
+import Image from "next/image";
 import CarouselComp from "../Carousel/CarouselComp";
 import Navigation from "../Navigation/Navigation";
 
@@ -13,6 +14,7 @@ function Banner({ config }) {
         {config?.banner && config?.show && (
           <>
             <div className={styles.bannerImg}>
+              {/* <Image src={config?.img} sizes="100vw" fill /> */}
               <img src={config?.img} alt="" />
             </div>
           </>

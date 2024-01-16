@@ -66,8 +66,9 @@
 }
 
 .social_container {
-  border: 2px solid #676767a6;
+  /* border: 2px solid #676767a6; */
   border: 2px solid white;
+  background: white;
   height: 30px;
   width: 30px;
   border-radius: 50%;
@@ -76,10 +77,14 @@
   justify-content: center;
   margin-left: 10px;
   cursor: pointer;
-  color: white;
+  /* color: white; */
+  color: #0066a6;
+  transition: 0.8s;
 }
 
 .social_container:hover {
+  color: white;
+  background: transparent;
   transform: translateY(-5px);
   transition: 0.5s;
 }

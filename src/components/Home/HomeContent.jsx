@@ -37,14 +37,29 @@ function HomeContent() {
         </Link>
       </div>
 
-      <h4>In Association with.</h4>
+      <h4>In Association with :</h4>
       <div className={styles.association}>
-        <img src="/images/cpa.png" alt="" />
-        <img src="/images/bc.png" alt="" />
-        <img src="/images/ccci.png" alt="" />
-        <img className={styles.mespas} src="/images/mespas.png" alt="" />
-        <img className={styles.procure} src="/images/procure.png" alt="" />
-        <img className={styles.procure} src="/images/Shipserv.png" alt="" />
+        <img loading="lazy" src="/images/cpa.png" alt="" />
+        <img loading="lazy" src="/images/bc.png" alt="" />
+        <img loading="lazy" src="/images/ccci.png" alt="" />
+        <img
+          loading="lazy"
+          className={styles.mespas}
+          src="/images/mespas.png"
+          alt=""
+        />
+        <img
+          loading="lazy"
+          className={styles.procure}
+          src="/images/procure.png"
+          alt=""
+        />
+        <img
+          loading="lazy"
+          className={styles.procure}
+          src="/images/Shipserv.png"
+          alt=""
+        />
       </div>
     </div>
   );

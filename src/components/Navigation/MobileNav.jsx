@@ -1,4 +1,4 @@
-import React from "react";
+"use client";
 import Container from "react-bootstrap/Container";
 import Nav from "react-bootstrap/Nav";
 import Navbar from "react-bootstrap/Navbar";
@@ -9,6 +9,7 @@ import Button from "react-bootstrap/Button";
 import Form from "react-bootstrap/Form";
 import NavDropdown from "react-bootstrap/NavDropdown";
 import Offcanvas from "react-bootstrap/Offcanvas";
+import { FaAngleDown } from "react-icons/fa";
 
 export default function MobileNav() {
   return (
@@ -52,14 +53,14 @@ export default function MobileNav() {
     </Navbar> */}
 
       {["xxl"].map((expand) => (
-        <Navbar key={false} expand={false} className="">
+        <Navbar key={false} expand={false}>
           <Container fluid>
             <Navbar.Toggle aria-controls={`offcanvasNavbar-expand-${expand}`} />
             <Navbar.Offcanvas
               id={`offcanvasNavbar-expand-${expand}`}
               aria-labelledby={`offcanvasNavbarLabel-expand-${expand}`}
               placement="end"
-              className="w-100"
+              className="w-75"
             >
               <Offcanvas.Header closeButton>
                 <Offcanvas.Title id={`offcanvasNavbarLabel-expand-${expand}`}>
@@ -94,14 +95,17 @@ export default function MobileNav() {
                   </Nav.Link>
                   <Nav.Link
                     as={Link}
-                    href="#action2"
+                    href="/services"
                     className={styles.nav_item}
                   >
                     <Navbar.Toggle
                       aria-controls={`offcanvasNavbar-expand-${expand}`}
                     >
                       {" "}
-                      <p>SERVICES</p>
+                      <p>
+                        SERVICES
+                        {/* <FaAngleDown style={{ marginLeft: "10px" }} /> */}
+                      </p>
                     </Navbar.Toggle>
                   </Nav.Link>
                   <Nav.Link

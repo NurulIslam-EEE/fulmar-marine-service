@@ -20,7 +20,7 @@
   overflow-x: scroll;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 .association::-webkit-scrollbar {
   display: none;

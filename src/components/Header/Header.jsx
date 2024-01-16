@@ -15,9 +15,10 @@ function Header() {
       <div className={styles.content + " container"}>
         <Link href="/">
           <div className={styles.logo}>
-            <img src="/images/FINAL_LOGO_2.jpg" alt="" />
+            <img src="/images/logo4.png" alt="" />
           </div>
         </Link>
+
         {width < 821 && <MobileNav />}
         {width > 820 && (
           <div className={styles.contactinfo}>

@@ -1,0 +1,18 @@
+.circle {
+  height: 25px;
+  width: 25px;
+  background-color: #0066a6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 10px;
+}
+
+.services h5 {
+  margin: 10px 0;
+}
+.services h5:hover {
+  color: #0066a6;
+}
