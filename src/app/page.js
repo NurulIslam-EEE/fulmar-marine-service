@@ -9,7 +9,7 @@ import { useEffect, useState } from "react";
 export default function Home() {
   return (
     <main className={styles.main + ""}>
-      <Banner />
+      <Banner config={{ banner: true }} />
       <HomeContent />
     </main>
   );

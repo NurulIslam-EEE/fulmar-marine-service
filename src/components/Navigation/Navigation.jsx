@@ -34,12 +34,24 @@ function Navigation() {
         </div>
         <div
           className={
-            pathname === "/services" ? styles.nav_item_active : styles.nav_item
+            pathname === "/services"
+              ? styles.nav_item_active + " " + styles.drop_down_container
+              : styles.nav_item + " " + styles.drop_down_container
           }
         >
           <Link href="/services">
             <p>SERVICES</p>
           </Link>
+          <div className={styles.drop_down_item}>
+            <p> Provision Stores</p>
+            <p> Deck & Engine Stores</p>
+            <p> Stationery & Computer Equipment</p>
+            <p> Medical Store & Hospital Equipment</p>
+            <p> Cabin Store & Safety Equipment</p>
+            <p> Hardware Tools, Rope & Lifting Tackles</p>
+            <p>Marine Paints & Chemicals</p>
+            <p> Other Services</p>
+          </div>
         </div>
         <div
           className={

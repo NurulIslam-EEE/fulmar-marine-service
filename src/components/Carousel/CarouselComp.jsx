@@ -64,7 +64,7 @@ function CarouselComp() {
       >
         {["/images/b1.jpg", "/images/b2.jpg", "/images/b3.jpg"].map((x) => {
           return (
-            <div className={styles.slide_card}>
+            <div key={x} className={styles.slide_card}>
               <img src={x} alt="" />
             </div>
           );

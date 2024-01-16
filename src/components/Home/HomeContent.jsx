@@ -43,7 +43,7 @@ function HomeContent() {
         <img src="/images/bc.png" alt="" />
         <img src="/images/ccci.png" alt="" />
         <img className={styles.mespas} src="/images/mespas.png" alt="" />
-        <img className={styles.procure} src="/images/procure.svg" alt="" />
+        <img className={styles.procure} src="/images/procure.png" alt="" />
         <img className={styles.procure} src="/images/Shipserv.png" alt="" />
       </div>
     </div>

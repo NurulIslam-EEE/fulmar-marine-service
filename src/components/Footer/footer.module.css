@@ -12,23 +12,24 @@
 .footer {
   height: fit-content;
   margin: auto;
-  padding-top: 20px;
+  padding-top: 10px;
   padding-bottom: 30px;
 }
 .footer .address {
   /* height: 30px; */
-  padding: 15px 0 15px 0;
+  padding: 10px 0 10px 0;
   color: white;
   width: 100%;
   background: url(http://adamallys.com/images/footer-border-bottom.jpg) bottom
     left repeat-x;
 }
-.footer .address p:not(:last-child) {
+.footer .address p {
   font-size: 14px;
   color: #676767;
   color: white;
   /* line-height: 12px; */
-  margin-top: 6px;
+  margin-top: 4px;
+  margin-bottom: 2px;
 }
 .footer .address p span {
   font-weight: bold;
@@ -95,7 +96,7 @@
     margin-top: 2px;
   }
   .footer .address p {
-    margin-bottom: 12px;
+    /* margin-bottom: 12px; */
   }
   .footer .address {
     /* height: 30px; */

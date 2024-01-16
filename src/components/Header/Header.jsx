@@ -15,7 +15,7 @@ function Header() {
       <div className={styles.content + " container"}>
         <Link href="/">
           <div className={styles.logo}>
-            <img src="/images/FINAL LOGO 2.png" alt="" />
+            <img src="/images/FINAL_LOGO_2.jpg" alt="" />
           </div>
         </Link>
         {width < 821 && <MobileNav />}

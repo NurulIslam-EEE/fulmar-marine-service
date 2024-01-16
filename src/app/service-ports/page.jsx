@@ -10,6 +10,7 @@ function ServicePorts() {
       <Banner
         config={{
           show: true,
+          banner: true,
           img: "/images/service-port.jpg",
         }}
       />

@@ -8,12 +8,14 @@ function ContactUs() {
     <>
       <Banner config={{ show: true, img: "/images/about-us-banner.jpg" }} />
       <div className="container contact-us">
-        <Breadcrumbs data={{ one: "Contact us" }} />
+        {/* <Breadcrumbs data={{ one: "Contact us" }} /> */}
         <h5>E-mail</h5>
         <p>
-          supply@fmscgp.com <br /> accounts@fmscgp.com
+          supply@fmscgp.com <br /> accounts@fmscgp.com <br /> info@fmscgp.com
         </p>
-        <h5>Customer Care</h5>
+        <h5>Telephone</h5>
+        <p>+880-2333313030</p>
+        <h5>Mobile</h5>
         <p> +8801919051677</p>
         <h5>Address</h5>
         <p>
