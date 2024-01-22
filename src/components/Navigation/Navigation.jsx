@@ -93,7 +93,7 @@ function Navigation() {
               : styles.nav_item
           }
         >
-          <Link href="/certifications">
+          <Link href="/">
             <p>CERTIFICATIONS</p>
           </Link>
         </div>

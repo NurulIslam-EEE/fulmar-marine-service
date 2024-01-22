@@ -103,12 +103,13 @@ body {
   /* font-family: "Raleway", sans-serif; */
   /* font-family: "Open Sans", sans-serif; */
   /* min-height: 125vh; */
-  background-color: #efefef !important;
+  /* background-color: #efefef !important; */
+  background-color: #cbd6e2a3 !important;
   font-family: "Roboto", sans-serif;
 }
 
 .body-color {
-  background-color: #efefef;
+  background-color: #cbd6e2a3;
   min-height: 65vh;
 }
 

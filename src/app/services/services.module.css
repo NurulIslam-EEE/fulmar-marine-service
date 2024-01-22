@@ -1,4 +1,4 @@
-.circle {
+/* .circle {
   height: 25px;
   width: 25px;
   background-color: #0066a6;
@@ -7,6 +7,11 @@
   align-items: center;
   justify-content: center;
   color: white;
+  margin-right: 10px;
+} */
+
+.circle img {
+  width: 25px;
   margin-right: 10px;
 }
 

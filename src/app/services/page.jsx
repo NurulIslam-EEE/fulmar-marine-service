@@ -13,42 +13,58 @@ function Services() {
         <div className="container">
           <Breadcrumbs data={{ one: "Services" }} />
           <div className="d-flex align-items-center">
-            <div className={styles.circle}>1</div> <h5> Provision Stores</h5>
+            <div className={styles.circle}>
+              <img src="/images/bullet.png" alt="" />
+            </div>{" "}
+            <h5> Provision Stores</h5>
           </div>
           <div className="d-flex align-items-center">
             {" "}
-            <div className={styles.circle}>2</div>
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
             <h5> Deck & Engine Stores</h5>
           </div>
           <div className="d-flex align-items-center">
             {" "}
-            <div className={styles.circle}>3</div>{" "}
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>{" "}
             <h5> Stationery & Computer Equipment</h5>
           </div>
           <div className="d-flex align-items-center">
             {" "}
-            <div className={styles.circle}>4</div>
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
             <h5> Medical Store & Hospital Equipment</h5>
           </div>
           <div className="d-flex align-items-center">
             {" "}
-            <div className={styles.circle}>5</div>
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
             <h5> Cabin Store & Safety Equipment</h5>
           </div>
           <div className="d-flex align-items-center">
             {" "}
-            <div className={styles.circle}>6</div>
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
             <h5> Hardware Tools, Rope & Lifting Tackles</h5>
           </div>
           <div className="d-flex align-items-center">
             {" "}
-            <div className={styles.circle}>7</div>
+            <div className={styles.circle}>
+              {" "}
+              <img src="/images/bullet.png" alt="" />
+            </div>
             <h5>Marine Paints & Chemicals</h5>
-          </div>
-          <div className="d-flex align-items-center">
-            {" "}
-            <div className={styles.circle}>8</div>
-            <h5> Other Services</h5>
           </div>
         </div>
       </div>
