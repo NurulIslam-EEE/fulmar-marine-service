@@ -1,0 +1,289 @@
+/*!**********************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[12].use[3]!./node_modules/react-multi-carousel/lib/styles.css ***!
+  \**********************************************************************************************************************************************************************************************************************************************************************************************/
+@font-face{font-family:"revicons";fallback:fallback;src:url(/_next/static/media/revicons.ff59b316.woff) format('woff'),url(/_next/static/media/revicons.b96bdb22.ttf) format('ttf'),url(/_next/static/media/revicons.652e7269.eot) format('ttf')}.react-multi-carousel-list{display:flex;align-items:center;overflow:hidden;position:relative}.react-multi-carousel-track{list-style:none;padding:0;margin:0;display:flex;flex-direction:row;position:relative;transform-style:preserve-3d;-webkit-backface-visibility:hidden;backface-visibility:hidden;will-change:transform,transition}.react-multiple-carousel__arrow{position:absolute;outline:0;transition:all .5s;border-radius:35px;z-index:1000;border:0;background:rgba(0,0,0,0.5);min-width:43px;min-height:43px;opacity:1;cursor:pointer}.react-multiple-carousel__arrow:hover{background:rgba(0,0,0,0.8)}.react-multiple-carousel__arrow::before{font-size:20px;color:#fff;display:block;font-family:revicons;text-align:center;z-index:2;position:relative}.react-multiple-carousel__arrow:disabled{cursor:default;background:rgba(0,0,0,0.5)}.react-multiple-carousel__arrow--left{left:calc(4% + 1px)}.react-multiple-carousel__arrow--left::before{content:"\e824"}.react-multiple-carousel__arrow--right{right:calc(4% + 1px)}.react-multiple-carousel__arrow--right::before{content:"\e825"}.react-multi-carousel-dot-list{position:absolute;bottom:0;display:flex;left:0;right:0;justify-content:center;margin:auto;padding:0;margin:0;list-style:none;text-align:center}.react-multi-carousel-dot button{display:inline-block;width:12px;height:12px;border-radius:50%;opacity:1;padding:5px 5px 5px 5px;box-shadow:none;transition:background .5s;border-width:2px;border-style:solid;border-color:grey;padding:0;margin:0;margin-right:6px;outline:0;cursor:pointer}.react-multi-carousel-dot button:hover:active{background:#080808}.react-multi-carousel-dot--active button{background:#080808}.react-multi-carousel-item{transform-style:preserve-3d;-webkit-backface-visibility:hidden;backface-visibility:hidden}@media all and (-ms-high-contrast:none),(-ms-high-contrast:active){.react-multi-carousel-item{flex-shrink:0 !important}.react-multi-carousel-track{overflow:visible !important}}[dir='rtl'].react-multi-carousel-list{direction:rtl}.rtl.react-multiple-carousel__arrow--right{right:auto;left:calc(4% + 1px)}.rtl.react-multiple-carousel__arrow--right::before{content:"\e824"}.rtl.react-multiple-carousel__arrow--left{left:auto;right:calc(4% + 1px)}.rtl.react-multiple-carousel__arrow--left::before{content:"\e825"}
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Carousel/carousel.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.carousel_arrow_container__MSAaw::before {
+  /* content: "\8592"; */
+}
+.carousel_slide_container__HKcu6 {
+  /* padding: 15px; */
+  background: transparent;
+}
+.carousel_arrow_container__MSAaw {
+  border-radius: 50%;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 39px;
+  font-weight: 800;
+  color: #fff;
+  /* display: block; */
+  /* font-family: revicons; */
+  /* text-align: center; */
+  z-index: 12;
+  right: 20px;
+  top: calc(50% - 40px);
+  position: absolute;
+}
+
+.carousel_arrow_container_left__04_9M {
+  border-radius: 50%;
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 39px;
+  font-weight: 800;
+  color: #fff;
+  /* display: block; */
+  /* font-family: revicons; */
+  /* text-align: center; */
+  z-index: 12;
+  left: 20px;
+  top: calc(50% - 40px);
+  position: absolute;
+}
+
+.carousel_slide_card__3iqxS {
+  width: 98%;
+  height: auto;
+
+  /* border: 8px solid white; */
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding: 8px;
+  background: white;
+
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px,
+    rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+  /* box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px; */
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 0.0625em 0.0625em,
+    rgba(0, 0, 0, 0.25) 0px 0.125em 0.5em,
+    rgba(255, 255, 255, 0.1) 0px 0px 0px 1px inset;
+}
+.carousel_slide_card__3iqxS img {
+  width: 100%;
+}
+
+@media (max-width: 720px) {
+  .carousel_slide_card__3iqxS {
+    padding: 8px;
+  }
+}
+
+@media (max-width: 450px) {
+  .carousel_slide_card__3iqxS {
+    padding: 6px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Navigation/navbar.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.navbar_nav_container__OsT0K {
+  min-width: 100%;
+  /* padding: 10px 0 30px 0; */
+}
+
+.navbar_nav_container__OsT0K p {
+  color: black;
+  font-weight: 500;
+  font-size: 14px;
+  cursor: pointer;
+  margin-bottom: 0;
+}
+
+.navbar_nav_container__OsT0K {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0;
+}
+.navbar_nav_item__9_HrE {
+  border-bottom: 2px solid transparent;
+  padding: 5px;
+  margin-right: 40px;
+  transition: 0.8s;
+}
+.navbar_nav_item_active__rFlHo {
+  border-bottom: 2px solid black;
+  padding: 5px;
+  margin-right: 40px;
+  transition: 0.8s;
+}
+.navbar_nav_item__9_HrE:hover {
+  border-bottom: 2px solid black;
+  /* border-top: 2px solid black; */
+  transition: 0.8s;
+}
+.navbar_drop_down_container__Ju_NX {
+  position: relative;
+  display: inline-block;
+}
+.navbar_drop_down_item__Ez9M_ {
+  margin-top: 8px;
+  margin-left: -10px;
+  position: absolute;
+  display: none;
+  position: absolute;
+  background-color: #f1f1f1;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+
+  z-index: 10;
+  padding: 10px 0px;
+  border-radius: 5px;
+  min-width: 300px;
+}
+
+.navbar_drop_down_container__Ju_NX:hover .navbar_drop_down_item__Ez9M_ {
+  display: block;
+}
+.navbar_drop_down_item__Ez9M_ p {
+  /* margin-bottom: 8px; */
+  padding: 5px 10px;
+  font-size: 14px;
+}
+.navbar_drop_down_item__Ez9M_ p:hover {
+  background-color: #014e96;
+  color: white;
+}
+
+@media only screen and (max-width: 820px) {
+  .navbar_nav_container__OsT0K {
+    display: none;
+  }
+}
+
+/*!***********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Banner/Banner.module.css ***!
+  \***********************************************************************************************************************************************************************************************************************************************************************************/
+/*.banner {
+  background: url("/images/body-bg.png");
+
+  background-size: contain;
+  background-position: center;
+}  */
+
+.Banner_banner__cvXnk {
+  position: relative;
+}
+
+.Banner_banner__cvXnk .Banner_bg__GPL6K {
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  width: 120%;
+}
+
+.Banner_banner__cvXnk .Banner_bannerImg__NSPMl {
+  /* width: 100%;
+  height: fit-content;
+  position: relative; */
+  background: white;
+  /* border: 8px solid white; */
+  /* box-shadow: 0px 0px 2px 2px rgba(0, 0, 0, 0.4);
+  -webkit-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4);
+  -moz-box-shadow: 0px 0px 4px 2px rgba(0, 0, 0, 0.4); */
+  /* box-shadow: 0 10px 16px 0 rgba(0, 0, 0, 0.2), 0 2px 2px 0 rgba(0, 0, 0, 0.19); */
+  box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px,
+    rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+  padding: 8px;
+  border-radius: 5px;
+}
+.Banner_banner__cvXnk .Banner_bannerImg__NSPMl img {
+  width: 100%;
+  height: auto;
+}
+@media (max-width: 820px) {
+  .Banner_banner__cvXnk .Banner_bannerImg__NSPMl {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 450px) {
+  .Banner_banner__cvXnk .Banner_bannerImg__NSPMl {
+    padding: 6px;
+  }
+}
+
+/*!***************************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Services/services.module.css ***!
+  \***************************************************************************************************************************************************************************************************************************************************************************************/
+.services_circle_bullet__N4xiG {
+  height: 12px;
+  width: 12px;
+  border-radius: 2px;
+  border: 1px solid black;
+  margin-right: 8px;
+}
+
+/*!********************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/app/services/services.module.css ***!
+  \********************************************************************************************************************************************************************************************************************************************************************************/
+/* .circle {
+  height: 25px;
+  width: 25px;
+  background-color: #0066a6;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  margin-right: 10px;
+} */
+
+.services_services__y2o1L p {
+  margin-bottom: 0;
+  font-size: 25px;
+}
+.services_services__y2o1L h2 {
+  margin: 0;
+  color: #0066a6;
+  margin-left: 5px;
+}
+.services_services__y2o1L h5 {
+  margin: 0;
+  margin-left: 15px;
+}
+
+.services_circle_bullet__5EVRb {
+  height: 12px;
+  width: 12px;
+  border-radius: 2px;
+  border: 1px solid black;
+  margin-right: 8px;
+}
+.services_circle__Qe4HZ img {
+  width: 25px;
+  margin-right: 10px;
+}
+.services_service_img__mDaWd {
+  width: 50%;
+}
+.services_service_img__mDaWd img {
+  width: 100%;
+}
+
+/* .services h5 {
+  margin: 10px 0;
+} */
+.services_services__y2o1L h5:hover {
+  color: #0066a6;
+}
+

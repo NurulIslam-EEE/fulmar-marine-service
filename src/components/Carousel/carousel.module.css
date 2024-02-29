@@ -77,3 +77,9 @@
     padding: 8px;
   }
 }
+
+@media (max-width: 450px) {
+  .slide_card {
+    padding: 6px;
+  }
+}

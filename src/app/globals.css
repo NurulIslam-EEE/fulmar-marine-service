@@ -217,6 +217,10 @@ a {
   }
 }
 
+.contact-us {
+  margin-top: 10px;
+}
+
 /* scrollbar */
 
 ::-webkit-scrollbar {

@@ -1,0 +1,75 @@
+/*!*******************************************************************************************************************************************************************************************************************************************************************************!*\
+  !*** css ./node_modules/next/dist/build/webpack/loaders/css-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[2]!./node_modules/next/dist/build/webpack/loaders/postcss-loader/src/index.js??ruleSet[1].rules[11].oneOf[7].use[3]!./src/components/Home/home.module.css ***!
+  \*******************************************************************************************************************************************************************************************************************************************************************************/
+.home_homeContent__ubEsx h3 {
+  /* color: #939393; */
+  text-transform: uppercase;
+  margin: 10px 0;
+}
+
+.home_homeContent__ubEsx h4 {
+  font-size: 14px;
+  /* color: #939393; */
+  margin: 0 0 30px 0;
+}
+
+.home_homeContent__ubEsx p {
+  font-size: 15px;
+  /* color: #707070; */
+  line-height: 13px;
+  margin-bottom: 10px;
+}
+.home_association__5_BRS {
+  overflow-x: scroll;
+  display: flex;
+  align-items: center;
+  margin-bottom: 15px;
+}
+.home_association__5_BRS::-webkit-scrollbar {
+  display: none;
+}
+.home_association__5_BRS img {
+  width: 50px;
+  margin-bottom: 5px;
+
+  margin-right: 15px;
+}
+.home_association__5_BRS .home_mespas__w93EL {
+  width: 120px;
+}
+.home_association__5_BRS .home_procure___IpB6 {
+  width: 170px;
+}
+.home_association__5_BRS img:hover {
+  transform: scale(1.2);
+  transition: 0.7s;
+}
+.home_about__oG3Pe {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start;
+}
+.home_about__oG3Pe p {
+  text-align: justify;
+  margin-right: 8px;
+  line-height: 20px;
+}
+.home_adobe__fX9Zk {
+  height: 50px;
+  width: 50px;
+  margin: 10px 0;
+}
+
+.home_adobe__fX9Zk img {
+  width: 100%;
+}
+
+@media only screen and (max-width: 600px) {
+  .home_about__oG3Pe {
+    flex-direction: column;
+  }
+  .home_about__oG3Pe img {
+    width: 90%;
+  }
+}
+

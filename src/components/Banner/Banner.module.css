@@ -41,3 +41,9 @@
     margin-top: 10px;
   }
 }
+
+@media (max-width: 450px) {
+  .banner .bannerImg {
+    padding: 6px;
+  }
+}

@@ -62,7 +62,11 @@ function CarouselComp() {
         // customLeftArrow={<CustomLeftArrow />}
         // customRightArrow={<CustomRightArrow />}
       >
-        {["/images/b1.jpg", "/images/b2.jpg", "/images/b3.jpg"].map((x) => {
+        {[
+          "/images/b1.jpg",
+          "/images/Chittagong Port, Ship chandler chittagong,fms, marine service, chittagong port vendor.jpg",
+          "/images/provision at chittagong, sludge disposal at chittagong, chittagong port, vendor at chittagong, supplier at chittagong.jpg",
+        ].map((x) => {
           return (
             <div key={x} className={styles.slide_card}>
               <img src={x} alt="" />

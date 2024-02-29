@@ -45,12 +45,12 @@ function Navigation() {
           <Link href="/services">
             <p>
               SERVICES{" "}
-              <MdKeyboardArrowDown
+              {/* <MdKeyboardArrowDown
                 style={{
                   marginLeft: "4px",
                   fontSize: "20px",
                 }}
-              />
+              /> */}
               {/* <span style={{}}>&#8964;</span> */}
               {/* <svg
                 viewBox="0 0 330 512"
@@ -63,7 +63,7 @@ function Navigation() {
               </svg> */}
             </p>
           </Link>
-          <div className={styles.drop_down_item}>
+          {/* <div className={styles.drop_down_item}>
             <p> Provision Stores</p>
             <p> Deck & Engine Stores</p>
             <p> Stationery & Computer Equipment</p>
@@ -72,7 +72,7 @@ function Navigation() {
             <p> Hardware Tools, Rope & Lifting Tackles</p>
             <p>Marine Paints & Chemicals</p>
             <p> Other Services</p>
-          </div>
+          </div> */}
         </div>
         <div
           className={
