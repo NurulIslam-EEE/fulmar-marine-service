@@ -27,7 +27,7 @@ function Navigation() {
         </div>
         <div
           className={
-            pathname === "/about-us" ? styles.nav_item_active : styles.nav_item
+            pathname === "/about-us/" ? styles.nav_item_active : styles.nav_item
           }
         >
           <Link href="/about-us">
@@ -37,7 +37,7 @@ function Navigation() {
         </div>
         <div
           className={
-            pathname === "/services"
+            pathname === "/services/"
               ? styles.nav_item_active + " " + styles.drop_down_container
               : styles.nav_item + " " + styles.drop_down_container
           }
@@ -76,7 +76,7 @@ function Navigation() {
         </div>
         <div
           className={
-            pathname === "/service-ports"
+            pathname === "/service-ports/"
               ? styles.nav_item_active
               : styles.nav_item
           }
@@ -88,7 +88,7 @@ function Navigation() {
         </div>
         <div
           className={
-            pathname === "/certifications"
+            pathname === "/certifications/"
               ? styles.nav_item_active
               : styles.nav_item
           }
@@ -100,7 +100,7 @@ function Navigation() {
 
         <div
           className={
-            pathname === "/contact-us"
+            pathname === "/contact-us/"
               ? styles.nav_item_active
               : styles.nav_item
           }

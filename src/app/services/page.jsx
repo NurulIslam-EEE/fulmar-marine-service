@@ -169,6 +169,9 @@ function Services() {
               <img src="/images/service1.png" alt="" />
             </div>
           </div>
+          <Headline
+            data={{ subTitle: "1.3 CABIN STORE & SAFETY EQUIPMENTS" }}
+          />
 
           {/* <div className="d-flex align-items-center">
             <div className={styles.circle}>
